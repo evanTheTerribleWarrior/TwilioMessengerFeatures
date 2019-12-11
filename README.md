@@ -17,8 +17,8 @@ The main structure is as follows:
 
 
 HOW TO RUN:
-1. npm install //Installs the dependencies  
-2. npm start //Starts the app
+1. `npm install //Installs the dependencies`  
+2. `npm start //Starts the app`
 3. ngrok on port 4000 (default or set yours)
 4. Set the ngrok path as "NGROK_URL/webhook" on Twilio-Messenger callback URL (under your project Channels https://www.twilio.com/console/channels)
 5. Create the webhook on developers.facebook.com for the Messenger page you have created for the bot Verify URL will be "NGROK_URL/messenger/webhook" and the token is defined in your .env (copy and paste it there)
