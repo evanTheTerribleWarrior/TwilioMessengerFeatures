@@ -6,11 +6,11 @@ It is basically a middleware that analyses the incoming payload and decides what
 
 ## Set up
 The main structure is as follows:  
--app.js : the main file that starts the server  
--config/express.js : the middleware app with the webhooks needed  
--payload/payload.js: Takes the payload from the Twilio integration point and decides the type of the message  
--handlers/handlers.js: Takes the output from payload.js and depending on the type of message takes appropriate action (functions here should be defined based on business needs)  
--tests/tests.js: Code that generates cards carrousel and quick replies
+- app.js : the main file that starts the server  
+- config/express.js : the middleware app with the webhooks needed  
+- payload/payload.js: Takes the payload from the Twilio integration point and decides the type of the message  
+- handlers/handlers.js: Takes the output from payload.js and depending on the type of message takes appropriate action (functions here should be defined based on business needs)  
+- tests/tests.js: Code that generates cards carrousel and quick replies
 
 
 HOW TO RUN:
