@@ -4,8 +4,6 @@
 This repo contains a node app that can be the baseline for enhancing your Twilio Autopilot with extra Facebook Messenger features like Cards, Quick Replies, Postbacks and Images.
 It is basically a middleware that analyses the incoming payload and decides what type of element was sent in the chat. It can be enhanced to manage more payloads and channels.
 
-![Twilio Autopilot Messenger Features]  
-(https://user-images.githubusercontent.com/54394422/70643161-6bc46200-1c38-11ea-9455-1c06b58baa6c.png)
 
 ## Set up
 The main structure is as follows:  
