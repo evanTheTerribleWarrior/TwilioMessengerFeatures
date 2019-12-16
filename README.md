@@ -25,3 +25,4 @@ HOW TO RUN:
 
 ## Twilio Blog Post
 Here you can find the relevant blog post that describes the install process and the expected results:
+https://www.twilio.com/blog/autopilot-facebook-messenger-enhancements-node
